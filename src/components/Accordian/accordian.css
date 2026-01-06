@@ -1,0 +1,38 @@
+.wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 20px;
+}
+.accordian{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+.selection{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 400px;
+        background: aqua;
+        font-size: 25px;
+}
+.boxes{
+        padding: 10px;
+        width: 400px;
+        background: gray;
+}
+.plus{
+        font-size: 25px;
+}
+.header{  
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+}
+p{
+        margin-left: 5px;
+        font-size: 18px;
+}
