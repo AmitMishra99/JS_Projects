@@ -1,0 +1,20 @@
+
+button{
+        height: 30px;
+        margin: 10px;
+        padding: 5px 20px;
+        background-color: aqua;
+        border-radius: 50px;
+}
+.buttons{
+        display: flex;
+        justify-content: center;
+}
+.display{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        margin-top: 20%;
+}
