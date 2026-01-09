@@ -1,6 +1,7 @@
 import Accordian from "./components/Accordian/Accordian";
 import RandomColorGenerator from "./components/Random-Colour-Generator/Index";
 import StarRating from "./components/Star-Rating/index";
+import ThemeMode from "./components/ThemeMode/Index";
 
 const App = () => {
   return (
@@ -12,7 +13,11 @@ const App = () => {
       {/* <RandomColorGenerator/> */}
 
       {/* 3. Star Rating - with options of no of stars */}
-      <StarRating noOfStars={10} />
+      {/* <StarRating noOfStars={10} /> */}
+
+      {/* 4. Different Themes Mode  - Dark and Night*/}
+      <ThemeMode/>
+
     </>
   );
 };

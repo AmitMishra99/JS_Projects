@@ -1,0 +1,29 @@
+:root {
+  --background: #ffffff;
+  --text-primary: #000;
+  --button-bg: #000;
+  --button-text: #ffffff;
+}
+h1 {
+  margin-top: 20vw;
+  align-items: center;
+  color: var(--text-primary);
+}
+button {
+  /* margin-top: 2vw; */
+  /* padding: 10px 20px; */
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+[dataTheme="dark"] {
+  --background: #000000;
+  --text-primary: #fff;
+  --button-bg: #fff;
+  --button-text: #000000;
+}
+.light-dark-mode {
+  height: 100vh;
+  background-color: var(--background);
+  transition: all 0.5s;
+}
