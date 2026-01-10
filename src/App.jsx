@@ -2,6 +2,7 @@ import Accordian from "./components/Accordian/Accordian";
 import RandomColorGenerator from "./components/Random-Colour-Generator/Index";
 import StarRating from "./components/Star-Rating/index";
 import ThemeMode from "./components/ThemeMode/Index";
+import QRCodeGenerator from "./components/QRCode/QRCode";
 
 const App = () => {
   return (
@@ -16,7 +17,11 @@ const App = () => {
       {/* <StarRating noOfStars={10} /> */}
 
       {/* 4. Different Themes Mode  - Dark and Night*/}
-      <ThemeMode/>
+      {/* <ThemeMode/> */}
+
+      {/* 5. QR Code Generator : using react-qr-code library */}
+      <QRCodeGenerator/>
+
 
     </>
   );
