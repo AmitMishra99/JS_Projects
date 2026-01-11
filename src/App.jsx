@@ -3,6 +3,7 @@ import RandomColorGenerator from "./components/Random-Colour-Generator/Index";
 import StarRating from "./components/Star-Rating/index";
 import ThemeMode from "./components/ThemeMode/Index";
 import QRCodeGenerator from "./components/QRCode/QRCode";
+import LoadMoreData from "./components/Load-More-Data/Inde"
 
 const App = () => {
   return (
@@ -20,7 +21,9 @@ const App = () => {
       {/* <ThemeMode/> */}
 
       {/* 5. QR Code Generator : using react-qr-code library */}
-      <QRCodeGenerator/>
+      {/* <QRCodeGenerator/> */}
+
+      <LoadMoreData/>
 
 
     </>
