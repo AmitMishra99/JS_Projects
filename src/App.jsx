@@ -1,9 +1,10 @@
-import Accordian from "./components/Accordian/Accordian";
-import RandomColorGenerator from "./components/Random-Colour-Generator/Index";
-import StarRating from "./components/Star-Rating/index";
-import ThemeMode from "./components/ThemeMode/Index";
-import QRCodeGenerator from "./components/QRCode/QRCode";
-import LoadMoreData from "./components/Load-More-Data/Inde"
+// import Accordian from "./components/Accordian/Accordian";
+// import RandomColorGenerator from "./components/Random-Colour-Generator/Index";
+// import StarRating from "./components/Star-Rating/index";
+// import ThemeMode from "./components/ThemeMode/Index";
+// import QRCodeGenerator from "./components/QRCode/QRCode";
+// import LoadMoreData from "./components/Load-More-Data/Inde"
+import GithubProfileFinder from "./components/gihub-profile-finder/index";
 
 const App = () => {
   return (
@@ -23,7 +24,13 @@ const App = () => {
       {/* 5. QR Code Generator : using react-qr-code library */}
       {/* <QRCodeGenerator/> */}
 
-      <LoadMoreData/>
+      {/* 6. Load More Data : using API skip and limit params */}
+      {/* <LoadMoreData/> */}
+
+      {/* 7. Github Profile Finder : by using api.github fetching the users  */}
+      <GithubProfileFinder/>
+
+
 
 
     </>

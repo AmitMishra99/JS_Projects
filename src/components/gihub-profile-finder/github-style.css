@@ -1,0 +1,30 @@
+.github-profile-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  padding: 6vh;
+}
+input , button {
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+.user {
+  padding: 5vw;
+  margin-top: 50px;
+  border: 2px solid black;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.main,
+.img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vh;
+}
+.git{
+  margin-top: 20px;
+}

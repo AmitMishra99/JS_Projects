@@ -7,3 +7,4 @@
   3. Star Rating 
   4. Theme Mode - Dark and light 
   5. QR Code Generater
+  6. Load More Data 
