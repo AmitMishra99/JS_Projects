@@ -8,3 +8,5 @@
   4. Theme Mode - Dark and light 
   5. QR Code Generater
   6. Load More Data 
+  7. Github Profile Finder
+  8. Search Auto Complete 

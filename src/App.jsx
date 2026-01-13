@@ -4,7 +4,8 @@
 // import ThemeMode from "./components/ThemeMode/Index";
 // import QRCodeGenerator from "./components/QRCode/QRCode";
 // import LoadMoreData from "./components/Load-More-Data/Inde"
-import GithubProfileFinder from "./components/gihub-profile-finder/index";
+// import GithubProfileFinder from "./components/gihub-profile-finder/index";
+import SearchAutoComplete from "./components/search-auto-complete/index";
 
 const App = () => {
   return (
@@ -28,11 +29,10 @@ const App = () => {
       {/* <LoadMoreData/> */}
 
       {/* 7. Github Profile Finder : by using api.github fetching the users  */}
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
 
-
-
-
+      {/* 8. Auto Complete Input Box - giving pre suggestions  */}
+      <SearchAutoComplete />
     </>
   );
 };
