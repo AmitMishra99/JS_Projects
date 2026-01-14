@@ -10,3 +10,4 @@
   6. Load More Data 
   7. Github Profile Finder
   8. Search Auto Complete 
+  9. Image Slider 
